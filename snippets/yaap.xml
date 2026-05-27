@@ -11,6 +11,10 @@
            fetch="https://github.com/yaap"
            revision="refs/heads/sixteen" />
 
+  <remote  name="lab"
+           fetch="https://github.com/peridot-lab"
+           revision="refs/heads/sixteen" />
+
   <!-- General -->
   <project path="art" name="art" remote="yaap" />
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="yaap" />
@@ -34,7 +38,7 @@
   </project>
 
   <!-- Device -->
-  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="yaap" />
+  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy-yaap" remote="lab" />
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="yaap" />
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr_legacy-um" remote="yaap" />
   <project path="device/qcom/sepolicy_vndr/sm8650" name="device_qcom_sepolicy_vndr_sm8650" remote="yaap" />
@@ -74,8 +78,8 @@
   <project path="external/zstd" name="external_zstd" remote="yaap" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="frameworks_av" remote="yaap" />
-  <project path="frameworks/base" name="frameworks_base" remote="yaap" />
+  <project path="frameworks/av" name="yaap_frameworks_av" remote="lab" />
+  <project path="frameworks/base" name="frameworks_base_yaap" remote="lab" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="yaap" />
   <project path="frameworks/minikin" name="frameworks_minikin" remote="yaap" />
   <project path="frameworks/native" name="frameworks_native" remote="yaap" />
@@ -89,7 +93,7 @@
   <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="yaap" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="yaap" />
   <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="yaap" />
-  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="yaap" />
+  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces-yaap" remote="lab" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="yaap" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="yaap" />
   <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="yaap" />
@@ -162,7 +166,7 @@
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="yaap" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="yaap" />
   <project path="packages/apps/KProfiles" name="packages_apps_KProfiles" remote="yaap" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3_yaap" remote="lab" />
   <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="yaap" />
   <project path="packages/apps/OpenDelta" name="packages_apps_OpenDelta" remote="yaap" />
@@ -171,8 +175,8 @@
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="yaap" />
   <project path="packages/apps/Ripple" name="CalyxOS/platform_packages_apps_Ripple" remote="github" revision="android15-qpr2" />
   <project path="packages/apps/Seedvault" name="packages_apps_Seedvault" remote="yaap" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
-  <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
+  <project path="packages/apps/Settings" name="yaap_apps_Settings" remote="lab" />
+  <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="lab" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="yaap" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="yaap" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="yaap" />
@@ -236,8 +240,8 @@
   <project path="vendor/google/gms" name="yaosp/vendor_google_gms" remote="gitlab" revision="sixteen" clone-depth="1" />
   <project path="vendor/google/pixel" name="yaosp/vendor_google_pixel" remote="gitlab" revision="sixteen" clone-depth="1" />
   <project path="vendor/microg" name="vendor_microg" remote="yaap" />
-  <project path="vendor/themes" name="vendor_themes" remote="yaap" />
-  <project path="vendor/yaap" name="vendor_yaap" remote="yaap" />
+  <project path="vendor/themes" name="yaap-vendor_themes" remote="lab" />
+  <project path="vendor/yaap" name="vendor_yaap" remote="lab" />
   <project path="vendor/yaap/apps" name="vendor_yaap_apps" remote="yaap" clone-depth="1" />
 
 </manifest>
