@@ -82,7 +82,7 @@
   <project path="frameworks/base" name="frameworks_base_yaap" remote="lab" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="yaap" />
   <project path="frameworks/minikin" name="frameworks_minikin" remote="yaap" />
-  <project path="frameworks/native" name="frameworks_native" remote="yaap" />
+  <project path="frameworks/native" name="yaap_frameworks_native" remote="lab" />
   <project path="frameworks/opt/colorpicker" name="frameworks_opt_colorpicker" remote="yaap" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="yaap" />
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="yaap" />
