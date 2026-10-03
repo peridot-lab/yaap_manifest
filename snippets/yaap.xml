@@ -215,6 +215,7 @@
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="yaap" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="yaap" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="yaap" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="lab" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/calyx/espeak-ng" name="prebuilts_calyx_espeak-ng" remote="yaap" />
